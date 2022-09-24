@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import bd from '../db/conecction';
 
-const Course = bd.define('Course', {
+const Course = bd.define('course', {
     id_horario: {
         type: DataTypes.INTEGER
     },
