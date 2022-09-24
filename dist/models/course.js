@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
 const conecction_1 = __importDefault(require("../db/conecction"));
-const Course = conecction_1.default.define('Course', {
+const Course = conecction_1.default.define('course', {
     id_horario: {
         type: sequelize_1.DataTypes.INTEGER
     },
