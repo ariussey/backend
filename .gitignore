@@ -2,4 +2,3 @@
 /node_modules
 
 #Server
-/src/db/conecction.ts
