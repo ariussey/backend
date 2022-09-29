@@ -16,7 +16,7 @@ const Course = conecction_1.default.define('course', {
         type: sequelize_1.DataTypes.STRING
     },
     clave_zoom: {
-        type: sequelize_1.DataTypes.STRING
+        type: sequelize_1.DataTypes.TEXT
     }
 }, {
     createdAt: false,

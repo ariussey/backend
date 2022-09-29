@@ -12,7 +12,7 @@ const Course = bd.define('course', {
         type: DataTypes.STRING
     },
     clave_zoom: {
-        type: DataTypes.STRING
+        type: DataTypes.TEXT
     }
 }, {
     createdAt: false,
