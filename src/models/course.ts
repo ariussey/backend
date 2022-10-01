@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import bd from '../db/conecction';
 
-const Course = bd.define('course', {
+const Course = bd.define('courses', {
     id_horario: {
         type: DataTypes.INTEGER
     },
@@ -16,7 +16,9 @@ const Course = bd.define('course', {
     }
 }, {
     createdAt: false,
-    updatedAt: false
+    updatedAt: false,
+    //NOMBRE DE LA TABLA DIRECTAMENTA, SIN SEGUIR LA CONVENCIÓN
+    tableName: 'cursos_zoom_uai',
 });
 
 export default Course;
